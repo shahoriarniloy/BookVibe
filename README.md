@@ -1,8 +1,13 @@
-# React + Vite
+## Features and Characteristics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Responsive design for consistent experience on all devices
+- Dynamic navigation for easy exploration
+- Interactive book cards for engaging browsing
+- Detailed book pages for in-depth information
+- Personalized reading experience with "Read" and "Wishlist" options
+- Sortable book list for easy organization
+- Custom shape bar chart for visualizing reading progress
+- 404 route
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Live Link
+https://bookvibe-niloy.netlify.app/
