@@ -9,5 +9,6 @@
 - Custom shape bar chart for visualizing reading progress
 - 404 route
 
-##Live Link
-https://bookvibe-niloy.netlify.app/
+## Live Link
+
+[**Visit the Live Site**](https://bookvibe-niloy.netlify.app/)
