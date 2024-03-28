@@ -8,6 +8,7 @@ import NotFound from '../components/NotFound';
 
 import BookInfo from "../components/BookInfo";
 import List from "../components/List"
+import BarChart from '../components/ReadBarChart';
 
 
 
@@ -45,6 +46,10 @@ export const router = createBrowserRouter([
                         element: <ListedBooks />
                     }
                 ]
+            },
+            {
+                path: '/barchart',
+                element: <BarChart></BarChart>
             },
             {
                 path: '*',

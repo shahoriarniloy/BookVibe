@@ -34,7 +34,7 @@ const Navbar = () => {
                         ? "pending"
                         : ("text-black")
                     }>Listed Books</NavLink></li>
-            <li><NavLink  className={({ isActive, isPending }) =>
+            <li><NavLink  to={`/barchart`} className={({ isActive, isPending }) =>
                       isActive
                         ? ("text-green-500")
                         : isPending
