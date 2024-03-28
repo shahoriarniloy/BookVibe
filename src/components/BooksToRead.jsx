@@ -1,4 +1,5 @@
 import useLocalData from "../Hooks/useLocalData";
+import { Link } from 'react-router-dom';
 
 const BooksToRead = () => {
     const { localData: fetchedLocalData } = useLocalData();
@@ -41,7 +42,7 @@ const BooksToRead = () => {
                             <div className="card-actions flex justify-start items-center">
                                 <button className="btn w-[174px] h-[41px] px-5  bg-blue-500 bg-opacity-20 rounded-[30px] text-blue-500 text-base font-normal">Category: {book.category}</button>
                                 <button className='w-[123px] h-[41px] px-5  bg-amber-400 bg-opacity-20 rounded-[30px] text-center text-amber-400 text-base font-normal'>Rating: {book.rating}</button>
-                                <button className='w-[150px] h-[41px] px-5  bg-green-600 rounded-[30px] text-center text-white text-lg font-medium'>View Details</button>
+                              <Link  to={`/bookinfo/${book.bookId}`}> <button className='w-[150px] h-[41px] px-5  bg-green-600 rounded-[30px] text-center text-white text-lg font-medium'>View Details</button></Link>
                             </div>
                         </div>
                     </div>
