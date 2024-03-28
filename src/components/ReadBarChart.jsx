@@ -1,4 +1,3 @@
-import React from 'react';
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 import useLocalData from "../Hooks/useLocalData";
 

@@ -2,8 +2,8 @@ import { useParams } from "react-router-dom";
 import bookData from "../Hooks/useBookData";
 import { useEffect, useState } from "react";
 import { saveToLocalStorage, saveToLocalStorage2 } from "../Utilities/localStorage.js";
+import Loader from "./Loader.jsx";
 
-import React from 'react';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -11,6 +11,8 @@ const BookInfo = () => {
     const { bookId } = useParams();
     const { data, loading } = bookData();
     const [singleBook, setSingleBook] = useState({});
+    if (loading) {
+        return <Loader />;    }
 
 
     const handleWishList = () =>

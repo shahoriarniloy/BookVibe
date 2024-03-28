@@ -9,6 +9,8 @@ import NotFound from '../components/NotFound';
 import BookInfo from "../components/BookInfo";
 import List from "../components/List"
 import BarChart from '../components/ReadBarChart';
+import Authors from '../components/Authors';
+import Categories from '../components/Categories';
 
 
 
@@ -28,10 +30,16 @@ export const router = createBrowserRouter([
                 element: <Banner />
             },
 
-            
-          
+            {
+                path: "/authors",
+                element: <Authors />
+            },
+            {
+                path: "/categories",
+                element: <Categories />
+            },
 
-         
+
 
             {
                 path: "/list",
