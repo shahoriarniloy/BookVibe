@@ -3,6 +3,7 @@ import Home from "../components/Home";
 import ListedBooks from "../components/ListedBooks";
 import BooksToRead from "../components/BooksToRead";
 import Banner from "../components/Banner";
+import NotFound from '../components/NotFound';
 
 
 import BookInfo from "../components/BookInfo";
@@ -44,6 +45,10 @@ export const router = createBrowserRouter([
                         element: <ListedBooks />
                     }
                 ]
+            },
+            {
+                path: '*',
+                element: <NotFound></NotFound>
             }
         ]
     }
