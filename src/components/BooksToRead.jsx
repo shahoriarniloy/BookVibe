@@ -8,13 +8,13 @@ const BooksToRead = () => {
         <div > 
             <div className="grid grid-cols-1  gap-4 p-6">
                 {fetchedLocalData.map((book, index) => (
-                    <div key={index} className="card lg:card-side bg-base-100 shadow-xl">
+                    <div key={index} className="card lg:card-side bg-base-100 shadow-xl flex items-center justify-center">
                         <figure className='w-[230px] h-[229px] bg-neutral-900 bg-opacity-5 rounded-2xl m-4'><img className="w-[129.32px] h-[172px]" src={book.image} alt="Album"/></figure>
                         <div className="card-body">
                             <h2 className="card-title">{book.bookName}</h2>
                             <p>Author: {book.author}</p>
-                            <div className='flex justify-start'>
-                                <div className='flex gap-4'>
+                            <div className='flex lg:flex-row flex-col justify-start'>
+                                <div className='flex lg:flex-row flex-col gap-4'>
                                 <p className='text-neutral-900 text-base font-bold'>Tag</p>
                                 {book.tags.map((tag, tagIndex) => (
                                     <button key={tagIndex} className="btn btn-sm text-center text-green-600 text-base font-medium  mr-2">#{tag}</button>

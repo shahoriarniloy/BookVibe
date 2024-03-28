@@ -12,7 +12,7 @@ const Navbar = () => {
             <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
               <li><NavLink><button className="btn btn-outline btn-success">Home</button></NavLink></li>
               <li><NavLink to="/list">Listed Books</NavLink></li>
-              <li><NavLink >Pages to Read</NavLink></li>
+              <li><NavLink to="/barchart">Pages to Read</NavLink></li>
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">Book Vibe</a>

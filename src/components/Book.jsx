@@ -9,7 +9,7 @@ const Book = () => {
     return (
             <div>
                 <h2 className='text-neutral-900 text-[40px] font-bold text-center mb-8'>Books</h2>
-                <div className='grid grid-cols-3 justify-items-center'>
+                <div className='grid lg:grid-cols-3 grid-cols-1 justify-items-center'>
             {data.map((item) => (
             
         <Books key={item.bookId} item={item}></Books>
