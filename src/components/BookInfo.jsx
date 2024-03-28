@@ -3,6 +3,10 @@ import bookData from "../Hooks/useBookData";
 import { useEffect, useState } from "react";
 import { saveToLocalStorage, saveToLocalStorage2 } from "../Utilities/localStorage.js";
 
+import React from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const BookInfo = () => {
     const { bookId } = useParams();
     const { data, loading } = bookData();
@@ -64,6 +68,7 @@ const BookInfo = () => {
                 <button onClick={handleWishList} className="btn w-32 h-[57px] px-7 py-[18px] bg-teal-400 rounded-lg">Wish list</button>
                 </div>
             </div>
+            <ToastContainer />
         </div>
     );
 };
