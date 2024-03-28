@@ -12,7 +12,7 @@ const BooksToRead = () => {
                         <figure className='w-[230px] h-[229px] bg-neutral-900 bg-opacity-5 rounded-2xl m-4'><img className="w-[129.32px] h-[172px]" src={book.image} alt="Album"/></figure>
                         <div className="card-body">
                             <h2 className="card-title">{book.bookName}</h2>
-                            <p>Author: {book.author}</p>
+                            <p>By : {book.author}</p>
                             <div className='flex lg:flex-row flex-col justify-start'>
                                 <div className='flex lg:flex-row flex-col gap-4'>
                                 <p className='text-neutral-900 text-base font-bold'>Tag</p>

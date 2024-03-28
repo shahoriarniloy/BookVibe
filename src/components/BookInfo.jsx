@@ -32,7 +32,7 @@ const BookInfo = () => {
     }
 
     return (
-        <div className="card lg:card-side bg-base-100 shadow-xl mt-14 ml-4 mr-4 lg:m-auto max-w-[1400px] h-[auto] lg:h-[711px]">
+        <div className="card lg:card-side bg-base-100 shadow-xl mt-16 ml-4 mr-4 lg:m-auto max-w-[1400px] h-[auto] lg:h-[711px]">
             <figure className="w-full lg:w-[573px] lg:h-[711px] bg-neutral-900 bg-opacity-5 rounded-t-lg lg:rounded-t-none lg:rounded-l-lg lg:rounded-b-none lg:rounded-r-none">
                 <img className="w-full lg:w-[425px] h-[565px] bg-base-200" src={image} alt="Image" />
             </figure>

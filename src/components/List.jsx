@@ -6,7 +6,17 @@ const List = () => {
     const [tabIndex, setTabIndex] = useState(0);
 
     return (
+
+        
         <div className='mt-16 max-w-[1400px] m-auto'>
+
+            <div className='bg-neutral-900 bg-opacity-5 rounded-xl'> 
+                <h2 className='text-neutral-900 text-[40px] font-bold text-center mb-8 mt-16'>Books</h2>
+            </div>
+
+
+
+
             <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
                 <Link to={``} onClick={() => setTabIndex(0)} rel="noopener noreferrer"  className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 0 ? 'border border-b-0' : 'border-b'} rounded-t-lg dark:border-gray-600 dark:text-gray-900`}>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
