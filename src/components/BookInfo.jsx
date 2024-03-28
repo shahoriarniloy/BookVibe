@@ -64,7 +64,7 @@ const BookInfo = () => {
 
                 <div>
                     <button onClick={handleRead} className="btn w-[101px] h-[57px] px-7 py-[18px] rounded-lg border border-neutral-900 border-opacity-30 mr-2 lg:mr-6">Read</button>
-                    <button onClick={handleWishList} className="btn w-32 h-[57px] px-7 py-[18px] bg-teal-400 rounded-lg">Wish list</button>
+                    <button onClick={handleWishList} className="btn w-32 h-[57px] px-7 py-[18px] bg-teal-400 rounded-lg">Wishlist</button>
                 </div>
             </div>
             <ToastContainer />
