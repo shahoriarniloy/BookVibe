@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "/to_kill_a_mockingbird.jpg",
+      "review": "A timeless classic that explores themes of racial injustice and moral growth.",
+      "totalPages": 281,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic","Drama"],
+      "publisher": "J.B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "bookId": 2,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "/1984.jpeg",
+      "review": "A dystopian masterpiece that warns against totalitarianism and explores the nature of truth.",
+      "totalPages": 328,
+      "rating": 4.8,
+      "category": "Fiction",
+      "tags": [ "Political", "Philosophical"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "bookId": 3,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "/the_great_gatsby.jpg",
+      "review": "An exploration of the American Dream, decadence, and the emptiness of wealth.",
+      "totalPages": 180,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Romance", "Tragedy"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "bookId": 4,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "/pride_and_prejudice.png",
+      "review": "A witty and romantic comedy of manners that explores themes of love, marriage, and social status.",
+      "totalPages": 279,
+      "rating": 4.7,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "/the_catcher_in_the_rye.jpg",
+      "review": "A coming-of-age novel that explores teenage angst, alienation, and the search for identity.",
+      "totalPages": 277,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Coming-Age", "Psychological"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "bookId": 6,
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "/the_hobbit.jpg",
+      "review": "An enchanting adventure tale filled with magic, dragons, and unforgettable characters.",
+      "totalPages": 310,
+      "rating": 4.9,
+      "category": "Fantasy",
+      "tags": ["Adventure", "Fantasy"],
+      "publisher": "Allen & Unwin",
+      "yearOfPublishing": 1937
+    }
+  ]
+  
